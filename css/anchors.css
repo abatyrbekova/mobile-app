@@ -1,0 +1,16 @@
+/* Anchor links */
+/* header */
+a,
+a:visited,
+a:link {
+  color: white;
+  text-decoration: none;
+  font-size: larger;
+  transition: 0.5s;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+a:hover {
+  color: black;
+  transform: scale(2);
+}

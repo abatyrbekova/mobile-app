@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Pacifico&family=Sedgwick+Ave&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url(./var.css);
 /* your own mods */
 @import url(./logo.css);
@@ -11,11 +11,15 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   transition: 0.4s;
+  
 }
 body {
   /* view port width */
   /* view port height */
   width: 100vw;
   height: 100vh;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Roboto', sans-serif;
+  background-image: url(/home/user/app/e11/mobile-app/images/bg_001.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
