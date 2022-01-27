@@ -1,0 +1,7 @@
+:root {
+    font-size: 16px;
+    /* variables */
+    --main-text-color: white;
+    --learn-more-btn: green;
+    --get-the-app: blue;
+  }
