@@ -3,7 +3,7 @@
 a,
 a:visited,
 a:link {
-  color: white;
+  color: var(--main-text-color);
   text-decoration: none;
   font-size: larger;
   transition: 0.5s;

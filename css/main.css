@@ -1,0 +1,32 @@
+/*  Main   */
+.main-container {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-around; */
+    /* flex-direction: column; */
+    /* width: 50%; */
+  }
+  .main-container article {
+    display: flex;
+
+/* vremenno!!!!! */
+    width: 30%;
+
+  }
+
+  .about {
+    color: var(--main-text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+.phones {
+   
+}
+  .phone1, .phone2 {
+    width: 14vw;
+  }

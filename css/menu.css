@@ -1,1 +1,21 @@
 /* Menu */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    /* ??? */
+    /* padding: 20px 40px 0px 40px; */
+  }
+  header nav {
+    flex-grow: 2;
+  }
+  header nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  header nav ul li {
+    display: inline;
+    list-style: none;
+  }
+  
