@@ -17,7 +17,7 @@ body {
   width: 100vw;
   height: 100vh;
   font-family: 'Roboto', sans-serif;
-  background-image: url(/home/user/app/e11/mobile-app/images/bg_001.jpg);
+  background-image: url(../images/bg_001.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   }
