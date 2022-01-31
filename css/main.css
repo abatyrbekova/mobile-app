@@ -38,21 +38,22 @@ background-color: var(--get-the-app);
 
 .phones {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   /* padding-left: 1vw; */
-  flex-basis: 30%;
+  /* flex-basis: 30%; */
+  align-items: center;
+  position: relative;
 }
-  .img1 {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 14vw;
-  }
-  .img2 {
-    position: absolute;
-    top: 10px;
-    right: 80px;
-    z-index: 1;
-    width: 14vw;
-
-  }
+.img1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 14vw;
+}
+.img2 {
+  position: absolute;
+  top: 10px;
+  right: 80px;
+  z-index: 1;
+  width: 14vw;
+}
