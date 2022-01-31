@@ -1,30 +1,26 @@
 /*  Main   */
-.main-container {
-    /* width: 100vw; */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .main-container article {
-    display: flex;
-
-/* vremenno!!!!! */
-    width: 30%;
-
-  }
-
-  .about {
-    color: var(--main-text-color);
-    
-    padding: 20px;
-  }
-
-
-.main-buttons {
-
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.more-btn, .app-btn {
+.about {
+  color: var(--main-text-color);
+  padding: 100px 10px;
+  flex-basis: 60%;
+}
+
+.main-intro {
+  margin: 50px auto;
+}
+h1 {
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+
+.more-btn,
+.app-btn {
   padding: 10px 30px;
   border: none;
   color: var(--main-text-color);
@@ -32,8 +28,6 @@
   font-size: 1rem;
   margin: 10px;
   font-weight: bold;
-  width: 10vw;
-  height: 5vh;
 }
 .more-btn {
 background-color: var(--learn-more-btn);
@@ -42,23 +36,23 @@ background-color: var(--learn-more-btn);
 background-color: var(--get-the-app);
 }
 
-
-  
 .phones {
- 
-  
+  display: flex;
+  justify-content: flex-end;
+  /* padding-left: 1vw; */
+  flex-basis: 30%;
 }
   .img1 {
-    position: relative;
+    position: absolute;
     top: 0;
     right: 0;
     width: 14vw;
-    z-index: 0;
   }
   .img2 {
-    position: relative;
+    position: absolute;
     top: 10px;
     right: 80px;
     z-index: 1;
     width: 14vw;
+
   }

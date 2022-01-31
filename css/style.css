@@ -15,7 +15,9 @@
 }
 body {
   width: 100vw;
+  max-width: 1000px;
   height: 100vh;
+  margin: auto;
   font-family: 'Roboto', sans-serif;
   background-image: url(../images/bg_001.jpg);
   background-repeat: no-repeat;
